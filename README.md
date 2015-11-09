@@ -17,3 +17,17 @@ Then inside the local virtual machine:
 Now you should be able to connect to the app from outside:
 
     $ curl http://`otto dev address`/status
+
+Production setup:
+
+    $ otto  infra
+
+Production deployment:
+
+    $ otto build
+    $ otto deploy
+
+Now the deployed app should run on
+
+    $ otto deploy info
+
