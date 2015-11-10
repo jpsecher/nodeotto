@@ -1,6 +1,6 @@
 {
   "name": "nodeotto",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Test of Otto for Node",
   "repository": "github:jpsecher/nodeotto",
   "main": "app.js",

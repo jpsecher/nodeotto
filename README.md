@@ -12,7 +12,7 @@ Development test:
 Then inside the local virtual machine:
 
     $ npm install
-    $ sudo npm start
+    $ npm start
 
 Now you should be able to connect to the app from outside:
 
@@ -30,4 +30,4 @@ Production deployment:
 Now the deployed app should run on
 
     $ otto deploy info
-
+    $ curl http://ec2-...amazonaws.com/status
