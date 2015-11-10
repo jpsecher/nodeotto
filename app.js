@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 80;
+var port = 8080;
 app.get('/status',function(req,res){
 	res.json({
 		hostname: req.hostname,

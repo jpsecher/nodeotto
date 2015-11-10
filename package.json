@@ -2,9 +2,11 @@
   "name": "nodeotto",
   "version": "0.0.1",
   "description": "Test of Otto for Node",
-  "main": "server.js",
+  "repository": "github:jpsecher/nodeotto",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"This is a dummy test\"",
+    "start": "node app.js"
   },
   "license": "ISC",
   "dependencies": {

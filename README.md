@@ -16,7 +16,7 @@ Then inside the local virtual machine:
 
 Now you should be able to connect to the app from outside:
 
-    $ curl http://`otto dev address`/status
+    $ curl http://`otto dev address`:8080/status
 
 Production setup:
 
